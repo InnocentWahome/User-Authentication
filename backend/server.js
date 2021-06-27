@@ -11,7 +11,7 @@ const jwt = require('jsonwebtoken')
 const User = require('./models/User')
 
 //connect to mongodb online
-mongoose.connect('mongodb+srv://innocent:wahome2020@timetracker.elei8.mongodb.net/User_Auth_Test?retryWrites=true&w=majority', {useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true });
+mongoose.connect('mongodb+srv://username:password@clustername.elei8.mongodb.net/databasename?retryWrites=true&w=majority', {useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true });
 
 
 //initialize the app
